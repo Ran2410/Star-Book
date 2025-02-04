@@ -9,6 +9,14 @@ use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
+
+    public function index() {
+        $users = user::all();
+        return response()->json([
+            'success' => true,
+            'data' => $users
+        ]);
+    }
     public function register(Request $request)
     {
         // Validasi input

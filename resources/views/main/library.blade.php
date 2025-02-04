@@ -22,10 +22,8 @@
             </button>
 
 
-            <!-- Title My Library di tengah -->
             <h1 class="text-2xl font-bold text-white">My Library</h1>
 
-            <!-- Search Button di kanan pojok -->
             <button class="absolute right-0 text-gray-300">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg">

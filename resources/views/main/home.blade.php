@@ -10,7 +10,7 @@
     <style>
         .image-slider-container {
             position: relative;
-            overflow: hidden;
+            overflow: hidden; 
             width: 100%;
             height: auto;
         }
@@ -547,9 +547,6 @@
                 });
             });
         </script>
-
-
-
 </body>
 
 </html>
